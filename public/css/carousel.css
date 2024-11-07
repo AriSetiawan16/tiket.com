@@ -1,0 +1,40 @@
+
+    .carousel-container {
+        position: relative;
+        overflow: hidden; /* Menyembunyikan slide yang tidak terlihat */
+        width: 100%; /* Atur lebar sesuai kebutuhan */
+        height: auto; /* Sesuaikan dengan tinggi gambar */
+    }
+
+    .carousel {
+        display: flex; /* Mengatur slide dalam satu baris */
+        transition: transform 0.5s ease; /* Menambahkan efek transisi */
+    }
+
+    .carousel-slide {
+        min-width: 100%; /* Setiap slide mengambil lebar penuh dari container */
+        box-sizing: border-box; /* Mengatur padding dan margin */
+    }
+
+    .carousel-slide img {
+        width: 100%; /* Membuat gambar responsif */
+        height: auto; /* Mengatur tinggi gambar otomatis */
+    }
+
+    .carousel-nav {
+ position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        cursor: pointer;
+        z-index: 10; /* Menempatkan tombol di atas slide */
+    }
+
+    .prev {
+        left: 10px; /* Jarak dari kiri */
+    }
+
+    .next {
+        right: 10px; /* Jarak dari kanan */
+    }

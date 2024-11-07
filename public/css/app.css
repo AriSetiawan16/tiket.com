@@ -1,0 +1,36 @@
+/* public/css/app.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.recommended, .new-events {
+    display: flex;
+    gap: 10px;
+}
+
+.event-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+}
